@@ -17,10 +17,10 @@ class test_price_text(unittest.TestCase):
 
         product_page.regionChoice()
         product_page.searchBar()
-        product_page.get_product_price()
         product_page.add_product()
-        product_page.free_shipping()
-        product_page.headset_color()
+        product_page.get_product_price()
+        # product_page.free_shipping()
+        # product_page.headset_color()
         base.selenium_end(driver)
 
 

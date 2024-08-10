@@ -32,7 +32,7 @@ class productPage3():
         print(f"Price found: {full_price}")
 
     def add_product(self):
-        link = self.driver.find_element(By.XPATH,'//a[@href="https://www.newegg.com/steelseries-arctis-nova-pro-wireless-for-xbox-black/p/N82E16826249270"]')
+        link = self.driver.find_element(By.CLASS_NAME, 'item-img')
         link.click()
 
 
